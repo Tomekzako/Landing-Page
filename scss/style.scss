@@ -39,3 +39,18 @@ strong {
 .clearfix {
     clear: both;
 }
+
+.main-header {
+    border-bottom: 4px solid #0b7eda;
+    img {
+        margin: auto;
+        display: block;
+    }
+}
+
+.main-heading {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
