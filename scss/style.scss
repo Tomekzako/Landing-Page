@@ -11,7 +11,23 @@ body {
 }
 
 .menu {
-    list-style: circle;
+    width: 100%;
+    border: 1px solid #107677;
+    background: linear-gradient(#1ebdbe, #107677);
+    border-radius: 6px;
+    box-shadow: 0 2px 2px #ccc;
+    &:before,
+    &:after {
+        content: '';
+        display: block;
+    }
+    &:after {
+        clear: both;
+    }
+    li {
+        float: left;
+        position: relative;
+    }
 }
 
 p {
