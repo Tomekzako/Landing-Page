@@ -71,6 +71,18 @@ body {
                 background: linear-gradient(#1ebdbe, #107677);
             }
         }
+        
+        li{
+            &:first-child > a:after{
+                 content: '';
+                position: absolute;
+                left: 40px;
+                top: -6px;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 6px solid #1ebdbe;
+            }
+        }
     }
 }
 
