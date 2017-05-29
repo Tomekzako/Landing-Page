@@ -10,6 +10,10 @@ body {
     background: #fff;
 }
 
+.menuTrigger {
+    display: none;
+}
+
 .menu {
     width: 100%;
     border: 1px solid #107677;
@@ -231,9 +235,24 @@ strong {
     color: #aaa;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 700px) {
     .container {
         width: 80%;
+    }
+    .menuTrigger {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        padding: 0 0 0 35px;
+        border: 1px solid #107677;
+        color: #fff;
+        border-radius: 6px;
+        background-color: #111;
+        background: url(../images/menu.png) no-repeat 10px center, linear-gradient(#1ebdbe, #107677);
+    }
+    .navBar {
+        position: relative;
     }
     h1 {
         font-size: 33px;
