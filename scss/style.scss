@@ -264,15 +264,6 @@ strong {
         z-index: 1;
         display: none;
         box-shadow: none;
-        &:after {
-                content: '';
-                position: absolute;
-                left: 25px;
-                top: -8px;
-                border-left: 8px solid transparent;
-                border-right: 8px solid transparent;
-                border-bottom: 8px solid #107677;
-            }
         ul{
             position: static;
             visibility: visible;
@@ -287,6 +278,10 @@ strong {
             li{
                 margin-left: 20px;
                 box-shadow: none;
+            }
+            a{
+                padding: 0;
+                width: auto;
             }
         }
         li {
