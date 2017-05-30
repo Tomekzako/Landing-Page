@@ -15,7 +15,8 @@ body {
 }
 
 .menu {
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
     width: 100%;
     border: 1px solid #107677;
     background: linear-gradient(#1ebdbe, #107677);
@@ -78,7 +79,7 @@ body {
         }
         a {
             padding: 10px;
-            width: 150px;
+            width: 130px;
             display: block;
             float: none;
             text-transform: none;
