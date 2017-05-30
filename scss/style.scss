@@ -254,7 +254,6 @@ strong {
     .navBar {
         position: relative;
     }
-    
     .menu {
         margin: 0;
         padding: 10px;
@@ -264,7 +263,7 @@ strong {
         z-index: 1;
         display: none;
         box-shadow: none;
-        ul{
+        ul {
             position: static;
             visibility: visible;
             opacity: 1;
@@ -275,13 +274,14 @@ strong {
                 margin: 0 0 0 20px;
                 box-shadow: none;
             }
-            li{
+            li {
                 margin-left: 20px;
                 box-shadow: none;
             }
-            a{
+            a {
                 padding: 0;
                 width: auto;
+                background: none !important;
             }
         }
         li {
@@ -292,7 +292,7 @@ strong {
             margin: 5px;
             box-shadow: none;
         }
-        a{
+        a {
             display: block;
             float: none;
             padding: 0;
