@@ -16,7 +16,6 @@ body {
 
 .menu {
     list-style-type: none;
-    padding: 0;
     width: 100%;
     border: 1px solid #107677;
     background: linear-gradient(#1ebdbe, #107677);
@@ -51,6 +50,8 @@ body {
     }
     ul {
         margin: 20px 0 0 0;
+        list-style-type: none;
+        padding: 0;
         opacity: 0;
         visibility: hidden;
         position: absolute;
