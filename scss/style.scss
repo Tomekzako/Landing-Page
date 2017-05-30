@@ -15,6 +15,7 @@ body {
 }
 
 .menu {
+    list-style: none;
     width: 100%;
     border: 1px solid #107677;
     background: linear-gradient(#1ebdbe, #107677);
@@ -31,6 +32,7 @@ body {
     li {
         float: left;
         position: relative;
+        list-style: none;
         &:hover>ul {
             opacity: 1;
             visibility: visible;
